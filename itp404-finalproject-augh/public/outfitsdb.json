@@ -1,0 +1,157 @@
+{
+    "albums": [
+        {
+            "title": "business",
+            "id": "1",
+            "outfits": [
+                {
+                    "title": "outfit 1",
+                    "slug": "outfit-1",
+                    "id": "1",
+                    "image": ""
+                },
+                {
+                    "title": "outfit 2",
+                    "slug": "outfit-2",
+                    "id": "2",
+                    "image": ""
+                }
+            ]
+        },
+        {
+            "title": "casual",
+            "id": "2",
+            "outfits": [
+                {
+                    "title": "outfit 3",
+                    "slug": "outfit-3",
+                    "id": "3",
+                    "image": ""
+                },
+                {
+                    "title": "outfit 4",
+                    "slug" : "outfit-4",
+                    "id": "4",
+                    "image": ""
+                }
+            ]
+        },
+        {
+            "title": "spring",
+            "id": "3",
+            "outfits": [
+                {
+                    "title": "outfit 1",
+                    "slug": "outfit-1",
+                    "id": "1",
+                    "image": ""
+                },
+                {
+                    "title": "outfit 3",
+                    "slug": "outfit-3",
+                    "id": "3",
+                    "image": ""
+                }
+            ]
+        },
+        {
+            "title": "summer",
+            "id": "4",
+            "outfits": [
+
+            ]
+        },
+        {
+            "title": "fall",
+            "id": "5",
+            "outfits": [
+
+            ]
+        },
+        {
+            "title": "winter",
+            "id": "6",
+            "outfits": [
+                {
+                    "title": "outfit 2",
+                    "slug": "outfit-2",
+                    "id": "2",
+                    "image": ""
+                },
+                {
+                    "title": "outfit 4",
+                    "slug" : "outfit-4",
+                    "id": "4",
+                    "image": ""
+                }
+            ]
+        }
+    ],
+
+    "outfits": [
+        {
+            "title": "outfit 1",
+            "slug": "outfit-1",
+            "id": "1",
+            "image": "",
+            "description": "asdf",
+            "albums": [
+                {
+                    "title": "business"
+                },
+                {
+                    "title": "spring"
+                }
+            ],
+            "favorited": true
+        },
+        {
+            "title": "outfit 2",
+            "slug": "outfit-2",
+            "id": "2",
+            "image": "",
+            "description": "asdf",
+            "albums": [
+                {
+                    "title": "business"
+                },
+                {
+                    "title": "winter"
+                }
+            ],
+            "favorited": false
+        },
+        {
+            "title": "outfit 3",
+            "slug": "outfit-3",
+            "id": "3",
+            "image": "",
+            "description": "asdf",
+            "albums": [
+                {
+                    "title": "casual"
+                },
+                {
+                    "title": "spring"
+                }
+            ],
+            "favorited": false
+        },
+        {
+            "title": "outfit 4",
+            "slug" : "outfit-4",
+            "id": "4",
+            "image": "",
+            "description": "asdf",
+            "albums": [
+                {
+                    "title": "casual"
+                },
+                {
+                    "title": "winter"
+                }
+            ],
+            "favorited": true
+        }
+    ]
+}

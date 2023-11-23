@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@900&family=Spectral:wght@300&display=swap');
+
+.homepage h1 {
+    padding: 0px;
+}
+
+.homepage strong {
+    color: rgb(118, 115, 110);
+    font-size: 1.4em;
+}
+
+#opening-text {
+    height: 500px;
+    padding-top: 250px;
+}
+
+#opening-text h4{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.hm-outfits-btn {
+    text-decoration: none;
+    color: white;
+    outline: 1px solid white;
+}
+
+.hm-outfits-btn:hover {
+    background-color: rgb(146, 140, 132);
+    color: white;
+    outline: none;
+}
+
+.hm-add-outfit-btn {
+    background-color: rgb(188, 177, 165);
+}
+
+.hm-add-outfit-btn:hover {
+    color: white;
+    background-color: rgb(146, 140, 132);
+}
+
+#homepage-main-img {
+    height: 600px;
+}
+
+#opening-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+div {
+    font-family: 'Spectral', serif;
+    background-color: rgb(188, 177, 165);
+}
+
+.navbar {
+    padding: 0px;
+}
+
+.navbar-brand {
+    font-size: 30px;
+    color: rgb(242, 236, 236);
+}
+
+.filler {
+    height: 350px;
+}
+
+h1 {
+    padding-top: 30px;
+}
