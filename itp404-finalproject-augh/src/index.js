@@ -13,6 +13,7 @@ import AddOutfit from './routes/addOutfit';
 import "./project.css";
 import SelectedOutfit from './routes/selectedOutfit';
 import SelectedAlbum from './routes/selectedAlbum';
+import EditOutfit from './routes/editOutfit';
 
 const router = createBrowserRouter([
   {
@@ -102,6 +103,20 @@ const router = createBrowserRouter([
       {
         path: "/albums/:title/:slug",
         element: <SelectedOutfit />,
+        loader({ params }) {
+          return fetch(`/outfitsdb.json`
+          ).then((response) => {
+            return response.json();
+          }).then((data) => {
+            return data.outfits.find((outfit) => {
+              return outfit.slug === params.slug;
+            })
+          })
+        }
+      },
+      {
+        path: "/:slug/edit",
+        element: <EditOutfit />,
         loader({ params }) {
           return fetch(`/outfitsdb.json`
           ).then((response) => {

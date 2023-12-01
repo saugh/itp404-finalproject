@@ -1,154 +1,152 @@
 {
     "albums": [
         {
-            "title": "business",
+            "title": "Business",
             "id": "1",
             "outfits": [
                 {
-                    "title": "outfit 1",
-                    "slug": "outfit-1",
+                    "title": "Sweater Vest with Pencil Skirt",
+                    "slug": "sweater-vest-with-pencil-skirt",
                     "id": "1",
-                    "image": ""
+                    "image": "8799C29A-4389-44BB-B37A-9E61D52BC0D9.jpg"
                 },
                 {
-                    "title": "outfit 2",
-                    "slug": "outfit-2",
+                    "title": "Cool Brown Top with Pencil Skirt",
+                    "slug": "cool-brown-top-with-pencil-skirt",
                     "id": "2",
-                    "image": ""
+                    "image": "3D2A2316-3BAF-4DC8-A736-EE5EA2834E99.jpg"
                 }
             ]
         },
         {
-            "title": "casual",
+            "title": "Casual",
             "id": "2",
             "outfits": [
                 {
-                    "title": "outfit 3",
-                    "slug": "outfit-3",
+                    "title": "White Blouse with Red Flower Skirt",
+                    "slug": "white-blouse-with-red-flower-skirt",
                     "id": "3",
-                    "image": ""
+                    "image": "1B15C52A-6098-452C-903B-35949A1BD672.jpg"
                 },
                 {
-                    "title": "outfit 4",
-                    "slug" : "outfit-4",
+                    "title": "Beige Sweater with Green Skirt",
+                    "slug" : "beige-sweater-with-green-skirt",
                     "id": "4",
-                    "image": ""
+                    "image": "629C22A0-B8D5-4FBC-8E0E-38EF5AAFAC2E.jpg"
                 }
             ]
         },
         {
-            "title": "spring",
+            "title": "Spring",
             "id": "3",
             "outfits": [
                 {
-                    "title": "outfit 1",
-                    "slug": "outfit-1",
-                    "id": "1",
-                    "image": ""
-                },
-                {
-                    "title": "outfit 3",
-                    "slug": "outfit-3",
+                    "title": "White Blouse with Red Flower Skirt",
+                    "slug": "white-blouse-with-red-flower-skirt",
                     "id": "3",
-                    "image": ""
+                    "image": "1B15C52A-6098-452C-903B-35949A1BD672.jpg"
                 }
             ]
         },
         {
-            "title": "summer",
+            "title": "Summer",
             "id": "4",
             "outfits": [
-
+                {
+                    "title": "Sweater Vest with Pencil Skirt",
+                    "slug": "sweater-vest-with-pencil-skirt",
+                    "id": "1",
+                    "image":"8799C29A-4389-44BB-B37A-9E61D52BC0D9.jpg"
+                }
             ]
         },
         {
-            "title": "fall",
+            "title": "Fall",
             "id": "5",
             "outfits": [
-
+                {
+                    "title": "Cool Brown Top with Pencil Skirt",
+                    "slug": "cool-brown-top-with-pencil-skirt",
+                    "id": "2",
+                    "image": "3D2A2316-3BAF-4DC8-A736-EE5EA2834E99.jpg"
+                },
+                {
+                    "title": "Beige Sweater with Green Skirt",
+                    "slug" : "beige-sweater-with-green-skirt",
+                    "id": "4",
+                    "image": "629C22A0-B8D5-4FBC-8E0E-38EF5AAFAC2E.jpg"
+                }
             ]
         },
         {
-            "title": "winter",
+            "title": "Winter",
             "id": "6",
             "outfits": [
-                {
-                    "title": "outfit 2",
-                    "slug": "outfit-2",
-                    "id": "2",
-                    "image": ""
-                },
-                {
-                    "title": "outfit 4",
-                    "slug" : "outfit-4",
-                    "id": "4",
-                    "image": ""
-                }
             ]
         }
     ],
 
     "outfits": [
         {
-            "title": "outfit 1",
-            "slug": "outfit-1",
+            "title": "Sweater Vest with Pencil Skirt",
+            "slug": "sweater-vest-with-pencil-skirt",
             "id": "1",
-            "image": "",
-            "description": "asdf",
+            "image": "8799C29A-4389-44BB-B37A-9E61D52BC0D9.jpg",
+            "description": "Top is from Yestyle.com. Skirt is a handmedown from my mom. Can be worn more casually with white sneakers.",
             "albums": [
                 {
-                    "title": "business"
+                    "title": "Business"
                 },
                 {
-                    "title": "spring"
+                    "title": "Summer"
                 }
             ],
             "favorited": true
         },
         {
-            "title": "outfit 2",
-            "slug": "outfit-2",
+            "title": "Cool Brown Top with Pencil Skirt",
+            "slug": "cool-brown-top-with-pencil-skirt",
             "id": "2",
-            "image": "",
-            "description": "asdf",
+            "image": "3D2A2316-3BAF-4DC8-A736-EE5EA2834E99.jpg",
+            "description": "One of my favorite tops (from H&M). Skirt is a handmedown from my mom. I like wearing this top with a bracelet over the sleeve, such as the one sister bought for me from Korea (in picture)",
             "albums": [
                 {
-                    "title": "business"
+                    "title": "Business"
                 },
                 {
-                    "title": "winter"
+                    "title": "Fall"
                 }
             ],
             "favorited": false
         },
         {
-            "title": "outfit 3",
-            "slug": "outfit-3",
+            "title": "White Blouse with Red Flower Skirt",
+            "slug": "white-blouse-with-red-flower-skirt",
             "id": "3",
-            "image": "",
-            "description": "asdf",
+            "image": "1B15C52A-6098-452C-903B-35949A1BD672.jpg",
+            "description": "Top is from Korea (I think MPLAYGROUND). Skirt is from Yesstyle.com. Would be very cute to wear on a picnic or just anywhere outside surrounded by nature. Also have a hairpin that matches the skirt.",
             "albums": [
                 {
-                    "title": "casual"
+                    "title": "Casual"
                 },
                 {
-                    "title": "spring"
+                    "title": "Spring"
                 }
             ],
             "favorited": false
         },
         {
-            "title": "outfit 4",
-            "slug" : "outfit-4",
+            "title": "Beige Sweater with Green Skirt",
+            "slug" : "beige-sweater-with-green-skirt",
             "id": "4",
-            "image": "",
-            "description": "asdf",
+            "image": "629C22A0-B8D5-4FBC-8E0E-38EF5AAFAC2E.jpg",
+            "description": "One of my favorite fall outfits~ Sweater is from H&M. Skirt is a handmedown from my mom. Looks cute with brown hat and leg warmers in image.",
             "albums": [
                 {
-                    "title": "casual"
+                    "title": "Casual"
                 },
                 {
-                    "title": "winter"
+                    "title": "Fall"
                 }
             ],
             "favorited": true

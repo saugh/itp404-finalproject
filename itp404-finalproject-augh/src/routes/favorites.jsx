@@ -1,4 +1,6 @@
 import { Link, useLoaderData } from "react-router-dom"
+import FadeIn from "react-fade-in";
+
 
 export default function Favorites() {
     const favorites = useLoaderData();
@@ -6,18 +8,20 @@ export default function Favorites() {
     return (
         <div>
             <h1>FAVORITES</h1>
-            <div className="filler">
-                {favorites.map((favorite) => {
-                    return (
-                        <div>
-                            <Link to={`/favorites/${favorite.slug}`}>
-                            <img src={favorite.image} alt={favorite.title} />
-                            {favorite.title}
-                            </Link>
-                        </div>
-                    )
-                })}
-            </div>
+            <FadeIn delay="10" transitionDuration="600">
+                <div className="container flex">
+                    {favorites.map((favorite) => {
+                        return (
+                            <div className="outfit-img-title">
+                                <Link to={`/favorites/${favorite.slug}`}>
+                                    <img src={`/images/${favorite.image}`} alt={favorite.title} className="outfit-img"/>
+                                    <div className="outfit-title">{favorite.title}</div>
+                                </Link>
+                            </div>
+                        )
+                    })}
+                </div>
+            </FadeIn>
         </div>
     )
 }

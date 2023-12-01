@@ -5,7 +5,7 @@ export default function Root () {
         <div className="container">
             <nav className="navbar navbar-expand-lg bg-light mb-2">
                 <div className="container-fluid">
-                    <NavLink to="/" className="navbar-brand">
+                    <NavLink to="/" className="navbar-brand me-5">
                         aesth
                     </NavLink>
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">

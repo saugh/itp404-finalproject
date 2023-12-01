@@ -23,6 +23,8 @@
     text-decoration: none;
     color: white;
     outline: 1px solid white;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 .hm-outfits-btn:hover {
@@ -71,4 +73,49 @@ div {
 
 h1 {
     padding-top: 30px;
+}
+
+.outfit-img {
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    padding: 10px;
+}
+
+.outfit-title {
+    padding-bottom: 20px;
+    position: relative;
+    right: 0px;
+    text-align: center;
+}
+
+.outfit-img-title {
+    height: 350px;
+    width: 300px;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.outfits-page-top{
+    display: flex;
+}
+
+.outfit-details {
+    margin-top: 70px;
+    padding:10px;
+    color:rgb(71, 66, 60);
+    border-radius: 15px;
+}
+
+.desc {
+    background-color:rgb(207, 200, 191);
+    padding: 20px;
+    /* border-radius: 15px; */
+}
+
+.outfit-details-img{
+    object-fit: cover;
 }
