@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@900&family=Spectral:wght@300&display=swap');
 
+.page {
+    /* background-color: rgb(188, 177, 165); */
+    padding-left: 40px;
+    height: 875px;
+}
+
+/* .space {
+    padding-bottom
+} */
+
 .homepage h1 {
     padding: 0px;
 }
@@ -15,6 +25,11 @@
 }
 
 #opening-text h4{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#opening-text h5{
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -55,7 +70,7 @@
 
 div {
     font-family: 'Spectral', serif;
-    background-color: rgb(188, 177, 165);
+    /* background-color: rgb(188, 177, 165); */
 }
 
 .navbar {
@@ -64,7 +79,8 @@ div {
 
 .navbar-brand {
     font-size: 30px;
-    color: rgb(242, 236, 236);
+    color: rgb(138, 127, 109);
+    margin-left: 10px;
 }
 
 .filler {
@@ -119,3 +135,105 @@ h1 {
 .outfit-details-img{
     object-fit: cover;
 }
+
+.favorites-details {
+    outline: 1px solid white;
+    height: 250px;
+    margin-top: 25px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.favorite-date-time {
+    position: absolute;
+    bottom: 10px;
+}
+
+.active { 
+    /* font-weight: bold; */
+    text-decoration: underline;
+}
+
+.outfit-img-icon {
+    position: relative;
+}
+
+.bookmark-icon {
+    /* visibility: hidden; */
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 50px;
+}
+
+.heart-icon {
+    position: absolute;
+    top: 22px;
+    right: 21px;
+    font-size: 25px;
+}
+
+.outfit-img-icon .active {
+    visibility: visible;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 45px;
+}
+
+.outfit-img-icon {
+    width:300px;
+    height: 300px;
+    padding: 10px;
+}
+
+.outfit-img-icon .outfit-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* .outfit-img-icon:hover .bookmark-icon {
+    visibility: visible;
+} */
+
+.favorite-card {
+    background-color: rgb(188, 177, 165);
+}
+
+body,
+html {
+    height: 100px;
+    background-color: rgb(188, 177, 165);
+}
+
+/* .container {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+} */
+
+.container-section {
+    display: flex;
+    flex-flow: column nowrap;
+    /* height: 100%; */
+  }
+  
+  main {
+    flex: 1;
+  }
+
+.footer {
+    background-color: rgb(138, 127, 109);
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: absolute; */
+    left: 0px;
+    right: 0px;
+    /* bottom: 0px; */
+    position: relative;
+    width: 100%;
+}
+

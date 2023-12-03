@@ -14,6 +14,10 @@ import "./project.css";
 import SelectedOutfit from './routes/selectedOutfit';
 import SelectedAlbum from './routes/selectedAlbum';
 import EditOutfit from './routes/editOutfit';
+import { fetchOutfits, fetchOutfitById } from './api';
+import Admin from './routes/admin';
+
+const baseUrl = process.env.REACT_APP_API_BASE_URL;
 
 const router = createBrowserRouter([
   {
@@ -28,12 +32,7 @@ const router = createBrowserRouter([
         path: "/outfits",
         element: <Outfits />,
         loader() {
-          return fetch('/outfitsdb.json'
-          ).then((response) => {
-            return response.json();
-          }).then((data) => {
-            return data.outfits;
-          })
+          return fetchOutfits();
         }
       },
       {
@@ -45,86 +44,59 @@ const router = createBrowserRouter([
         element: <Albums />
       },
       {
-        path: "/favorites/:slug",
-        element: <SelectedOutfit />,
-        loader({ params }) {
-          return fetch('/outfitsdb.json'
-          ).then((response) => {
-            return response.json();
-          }).then((data) => {
-            return data.outfits.find((outfit) => {
-              return outfit.slug === params.slug;
-            })
-          })
-        }
-      },
-      {
         path: "/favorites",
         element: <Favorites />,
         loader() {
-          return fetch('/outfitsdb.json'
+          return fetch(`${baseUrl}/favorited-outfits`
           ).then((response) => {
             return response.json();
-          }).then((data) => {
-            return data.outfits.filter((outfit) => {
-              return outfit.favorited === true;
-            })
           })
         }
       },
       {
-        path: "/outfits/:slug",
+        path: "/outfits/:id",
         element: <SelectedOutfit />,
-        loader({ params }) {
-          return fetch(`/outfitsdb.json`
-          ).then((response) => {
-            return response.json();
-          }).then((data) => {
-            return data.outfits.find((outfit) => {
-              return outfit.slug === params.slug;
-            })
-          })
+        loader({params}) {
+          return fetchOutfitById(params.id);
         }
       },
       {
-        path: "/albums/:title",
+        path: "/albums/:albumId",
         element: <SelectedAlbum />,
-        loader({ params }) {
-          return fetch(`/outfitsdb.json`
+        loader(loaderData) {
+          return fetch(`${baseUrl}/albums/${loaderData.params.albumId}`
           ).then((response) => {
             return response.json();
-          }).then((data) => {
-            return data.albums.find((album) => {
-              return album.title === params.title;
-            })
           })
         }
       },
+      // {
+      //   path: "/albums/:albumId/:outfitId",
+      //   element: <SelectedOutfit />,
+      //   loader(loaderData) {
+      //     return fetch(`${baseUrl}/albums/${loaderData.params.albumId}/${loaderData.params.outfits.id}`
+      //     ).then((response) => {
+      //       return response.json();
+      //     })
+      //   }
+      // },
       {
-        path: "/albums/:title/:slug",
-        element: <SelectedOutfit />,
-        loader({ params }) {
-          return fetch(`/outfitsdb.json`
-          ).then((response) => {
-            return response.json();
-          }).then((data) => {
-            return data.outfits.find((outfit) => {
-              return outfit.slug === params.slug;
-            })
-          })
-        }
-      },
-      {
-        path: "/:slug/edit",
+        path: "/outfits/:id/edit",
         element: <EditOutfit />,
-        loader({ params }) {
-          return fetch(`/outfitsdb.json`
+        loader(loaderData) {
+          return fetch(`${baseUrl}/outfits/${loaderData.params.id}`
           ).then((response) => {
             return response.json();
-          }).then((data) => {
-            return data.outfits.find((outfit) => {
-              return outfit.slug === params.slug;
-            })
+          })
+        }
+      },
+      {
+        path: "/admin",
+        element: <Admin />,
+        loader(){
+          return fetch(`${baseUrl}/outfits`
+          ).then((response) => {
+            return response.json();
           })
         }
       }

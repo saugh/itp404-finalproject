@@ -1,0 +1,166 @@
+{
+  "albums": [
+    {
+      "title": "Spring",
+      "id": "1",
+      "outfits": [
+        {
+          "title": "White Blouse with Red Flower Skirt",
+          "slug": "white-blouse-with-red-flower-skirt",
+          "image": "1B15C52A-6098-452C-903B-35949A1BD672.jpg",
+          "id": 3
+        }
+      ]
+    },
+    {
+      "title": "Summer",
+      "id": "2",
+      "outfits": [
+        {
+          "title": "Sweater Vest with Pencil Skirt",
+          "slug": "sweater-vest-with-pencil-skirt",
+          "image": "8799C29A-4389-44BB-B37A-9E61D52BC0D9.jpg",
+          "id": 1
+        },
+        {
+          "title": "Cool Brown Top with Pencil Skirt",
+          "slug": "cool-brown-top-with-pencil-skirt",
+          "image": "3D2A2316-3BAF-4DC8-A736-EE5EA2834E99.jpg",
+          "id": 2
+        }
+      ]
+    },
+    {
+      "title": "Fall",
+      "id": "3",
+      "outfits": [
+        {
+          "title": "Cool Brown Top with Pencil Skirt",
+          "slug": "cool-brown-top-with-pencil-skirt",
+          "image": "3D2A2316-3BAF-4DC8-A736-EE5EA2834E99.jpg",
+          "id": 2
+        },
+        {
+          "title": "Beige Sweater with Green Skirt",
+          "slug": "beige-sweater-with-green-skirt",
+          "image": "629C22A0-B8D5-4FBC-8E0E-38EF5AAFAC2E.jpg",
+          "id": 4
+        },
+        {
+          "title": "Oversized Beige Knit Vest",
+          "slug": "oversized-beige-knit-vest",
+          "image": "5E23A042-A3CC-4888-90BB-12EBDF7D14EF.jpg",
+          "id": 6
+        },
+        {
+          "title": "Autumn in France",
+          "slug": "autumn-in-france",
+          "image": "DE031634-D2A5-431B-A484-97F66C90DDCD.jpg",
+          "id": 7
+        }
+      ]
+    },
+    {
+      "title": "Winter",
+      "id": "4",
+      "outfits": [
+        {
+          "title": "Beige Sweater with Green Skirt",
+          "slug": "beige-sweater-with-green-skirt",
+          "image": "629C22A0-B8D5-4FBC-8E0E-38EF5AAFAC2E.jpg",
+          "id": 4
+        }
+      ]
+    }
+  ],
+  "outfits": [
+    {
+      "id": 1,
+      "title": "Sweater Vest with Pencil Skirt",
+      "slug": "sweater-vest-with-pencil-skirt",
+      "image": "8799C29A-4389-44BB-B37A-9E61D52BC0D9.jpg",
+      "description": "Top is from Yestyle.com. Skirt is a handmedown from my mom. Can be worn more casually with white sneakers.",
+      "albums": [
+        {
+          "id": 2,
+          "title": "Summer"
+        }
+      ],
+      "favorited": true
+    },
+    {
+      "id": 2,
+      "title": "Cool Brown Top with Pencil Skirt",
+      "slug": "cool-brown-top-with-pencil-skirt",
+      "image": "3D2A2316-3BAF-4DC8-A736-EE5EA2834E99.jpg",
+      "description": "One of my favorite tops (from H&M). Skirt is a handmedown from my mom. I like wearing this top with a bracelet over the sleeve, such as the one sister bought for me from Korea (in picture).",
+      "albums": [
+        {
+          "id": 2,
+          "title": "Summer"
+        },
+        {
+          "id": 3,
+          "title": "Fall"
+        }
+      ],
+      "favorited": false
+    },
+    {
+      "id": 3,
+      "title": "White Blouse with Red Flower Skirt",
+      "slug": "white-blouse-with-red-flower-skirt",
+      "image": "1B15C52A-6098-452C-903B-35949A1BD672.jpg",
+      "description": "Top is from Korea (I think MPLAYGROUND). Skirt is from Yesstyle.com. Would be very cute to wear on a picnic or just anywhere outside surrounded by nature. Also have a hairpin that matches the skirt",
+      "albums": [
+        {
+          "id": 1,
+          "title": "Spring"
+        }
+      ],
+      "favorited": false
+    },
+    {
+      "id": 4,
+      "title": "Beige Sweater with Green Skirt",
+      "slug": "beige-sweater-with-green-skirt",
+      "image": "629C22A0-B8D5-4FBC-8E0E-38EF5AAFAC2E.jpg",
+      "description": "One of my favorite fall outfits~ Sweater is from H&M. Skirt is a handmedown from my mom. Looks cute with brown hat and leg warmers in image.",
+      "albums": [
+        {
+          "id": 3,
+          "title": "Fall"
+        },
+        {
+          "id": 4,
+          "title": "Winter"
+        }
+      ],
+      "favorited": false
+    },
+    {
+      "title": "Oversized Beige Knit Vest",
+      "slug": "oversized-beige-knit-vest",
+      "image": "5E23A042-A3CC-4888-90BB-12EBDF7D14EF.jpg",
+      "description": "Extremely comfortable and stylish! From H&M!",
+      "albums": [
+        {
+          "id": 3,
+          "title": "Fall"
+        }
+      ],
+      "id": 6,
+      "favorited": false
+    }
+  ],
+  "favorited-outfits": [
+    {
+      "title": "Sweater Vest with Pencil Skirt",
+      "description": "Top is from Yestyle.com. Skirt is a handmedown from my mom. Can be worn more casually with white sneakers.",
+      "image": "8799C29A-4389-44BB-B37A-9E61D52BC0D9.jpg",
+      "date": "12/2/2023",
+      "time": "1:15:32 AM",
+      "id": 1
+    }
+  ]
+}
