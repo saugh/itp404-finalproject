@@ -118,7 +118,7 @@
           "title": "Spring"
         }
       ],
-      "favorited": false
+      "favorited": true
     },
     {
       "id": 4,
@@ -161,6 +161,14 @@
       "date": "12/2/2023",
       "time": "1:15:32 AM",
       "id": 1
+    },
+    {
+      "title": "White Blouse with Red Flower Skirt",
+      "description": "Top is from Korea (I think MPLAYGROUND). Skirt is from Yesstyle.com. Would be very cute to wear on a picnic or just anywhere outside surrounded by nature. Also have a hairpin that matches the skirt",
+      "image": "1B15C52A-6098-452C-903B-35949A1BD672.jpg",
+      "date": "12/3/2023",
+      "time": "3:12:42 AM",
+      "id": 3
     }
   ]
 }

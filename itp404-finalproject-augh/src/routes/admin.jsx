@@ -17,6 +17,10 @@ export default function Admin() {
             window.clearTimeout(tID);
         }, 2000)
     }
+
+    useEffect(() =>{
+        document.title = "aesth | Admin Page";
+    }, []);
     
     const setOutfitsToDelete = () => {
         let outfitsToDelete = [];
